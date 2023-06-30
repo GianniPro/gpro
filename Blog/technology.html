@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang=en>
 <head>
-    <title>Giakee | Studies | Mathematics</title>
-    <meta name="description" content="Welcome to Giakee, on this page you can learn, study and solve from different varieties of topics on Mathematics with full explanation and solving. We also offer more topics on different subjects like biology, physics, English language and so on.">
+    <title>Giakee | Blog | Technology</title>
+    <meta name="description" content="Welcome to Giakee tech blog post, on Giakee our aim is to offer you the latest news and blogs on technology, lifehack, tips and so many more.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="author" content="Kenechukwu Ejimofor">
@@ -14,22 +14,22 @@
             content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
         <meta property="og:locale" content="en" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Giakee | Studies | Mathematics" />
-        <meta property="og:description" content="Welcome to Giakee, on this page you can learn, study and solve from different varieties of topics on Mathematics with full explanation and solving. We also offer more topics on different subjects like biology, physics, English language and so on." />
+        <meta property="og:title" content="Giakee | Blog | Technology" />
+        <meta property="og:description" content="Sorry, no post available yet (Coming Soon)." />
         <meta property="og:url" content="" />
-        <meta property="og:site_name" content="Giakee | Studies | Mathematics" />
-        <meta property="og:image" content="./Images/mathematics.png" />
+        <meta property="og:site_name" content="Giakee | Blog | Technology" />
+        <meta property="og:image" content="./Images/technology_og.png" />
         <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:alt" content="Giakee study webpage mathematics image" />
+        <meta property="og:image:alt" content="Technology open graph background image" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
-        <meta name="twitter:image" content="./Images/mathematics.png" />
+        <meta name="twitter:image" content="./Images/technology_og.png" />
         <meta name="twitter:site" content="@giakee" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Giakee | Studies | Mathematics" />
+        <meta name="twitter:title" content="Giakee | Blog | Technology" />
         <meta
             name="twitter:description"
-            content="Welcome to Giakee, on this page you can learn, study and solve from different varieties of topics on Mathematics with full explanation and solving. We also offer more topics on different subjects like biology, physics, English language and so on." />
+            content="Sorry, no post available yet (Coming Soon)." />
         <meta name="twitter:label1" content="Created by" />
         <meta name="twitter:label2" content="Kenechukwu Ejimofor" />
         <!-- Favicon -->
@@ -77,8 +77,8 @@
 </div>
         <ul align="right" class="menu" id="menu">
             <li><a href="./../index.html">HOME</a></li>
-             <li><a href="./../blog.html">BLOG</a></li>
-            <li><a href="./../studies.html" id="active-page">STUDIES</a></li>
+             <li><a href="./../blog.html" id="active-page">BLOG</a></li>
+            <li><a href="./../studies.html">STUDIES</a></li>
             <li><a href="./../about-us.html">ABOUT US</a></li>
             <li class="toggle-btn"><img src="./Images/moon.png" id="icon" width="25px" class="lg-icon"></li>
         </ul>
@@ -95,14 +95,14 @@
                 <form class="welcome-search-input ui-widget">
                     <button><img src="./../Images/search.png" width="25px"></button>
                     <label for="tags"></label>
-                    <input type="text" placeholder="Search" id="tags"/>
+                    <input type="text" placeholder="Search" id="tags" />
                 </form>
             </div>
         
         </div>
         
     </section>
-    
+    <!--Floating Search--->
     <section class="search-n-menu">
     <div id="search">
     <div class="search-input-wrapper">
@@ -124,17 +124,38 @@
                 </button>
     </div>
     </section>
-    </section>
+    <section id="bg-color">
 </header>
-    
-    <section class="homepage-main-container">
-        <h2 class="title section-title" data-name="Courses we offer">Courses we offer</h2>
-        <div class="courses-we-offer-list">
-           <!--- <a href="#">English Language</a>
-            <hr/> --->
-            <span class="coming-soon-bs">Sorry, no post available yet.</span>
+
+    <div id="mySidenav" class="sidenav">
+        <div class="side-nav-a-wrapper">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="./../blog.html">All</a>
+          <a href="./news.html">News</a>
+          <a href="./tecnology.html">Technology</a>
+          <a href="./sports.html">Sports</a>
+          <a href="./lifestyle.html">Lifestyle</a>
+          <a href="./health-and-fitness.html">Health and Fitness</a>
         </div>
-    </section>
+    </div>
+    <span class="openbtn-sidenav" onclick="openNav()">&#9776;</span>
+    <div class="blog-main-container">
+
+            <div class="featured-updates-container">
+            <div class="featured-updates">
+                    <a href="./../Blog/technology/starlink.html"  title="Starlink">
+                        <div class="featured-updates-img">
+                            <img src="./../Blog/technology/starlink/starlink.jpg">
+                        </div>
+                        <div class="featured-updates-text">
+                            <h2>Starlink</h2>
+                            <span>By Kenechukwu Ejimofor | Dec 12TH 2022</span>
+                            <p>Starlink is a satellite internet constellation operated by SpaceX, providing hi...</p>
+                        </div>
+                    </a>
+            </div>
+        </div>
+    </div>
     
 <footer>
         
@@ -205,9 +226,8 @@
         </div>
     
 </footer>
-
-<script src="./../main.js"></script>
-<script src="./../Search/search.js"></script>
-</body>
     
+    <script src="./../main.js"></script>
+    <script src="./../Search/search.js"></script>
+    </body>
 </html>
