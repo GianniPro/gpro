@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Giakee | Blog</title>
+        <title>Giakee | Home</title>
         <meta
             name="description"
-            content="Welcome To Giakee blog webpage, here you can get the latest news, blogs, lifehack, tips, technology news and so many more intresting articles on our blog page." />
+            content="Welcome To Giakee, here you can get the latest news and blog posts, lifehack, tips, technology news and so many more and most importantly keeping up-to-date with your studies" />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="Kenechukwu Ejimofor" />
+        <meta name="article:author" content="Kenechukwu Ejimofor" />
         <meta name="http-equiv=refresh" content="30" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--Meta OG-->
@@ -16,24 +17,22 @@
             content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
         <meta property="og:locale" content="en" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Giakee | Blog" />
-        <meta
-            property="og:description"
-            content="Welcome To Giakee blog webpage, here you can get the latest news, blogs, lifehack, tips, technology news and so many more intresting articles on our blog page." />
+        <meta property="og:title" content="Giakee | Home" />
+        <meta property="og:description" content="Welcome To Giakee, here you can get the latest news and blogs, lifehack, tips, technology and so many more and most importantly keeping up-to-date with your studies" />
         <meta property="og:url" content="" />
-        <meta property="og:site_name" content="Giakee | Blog" />
+        <meta property="og:site_name" content="Giakee" />
         <meta property="og:image" content="https://giannipro.github.io/gpro/Images/background.jpg" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:alt" content="Giakee | Blog open graph image" />
+        <meta property="og:image:alt" content="Giakee | Home open graph image" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
         <meta name="twitter:image" content="https://giannipro.github.io/gpro/Images/background.jpg" />
         <meta name="twitter:site" content="@giakee" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Giakee | Blog" />
+        <meta name="twitter:title" content="Giakee | Home" />
         <meta
             name="twitter:description"
-            content="Welcome To Giakee blog webpage, here you can get the latest news, blogs, lifehack, tips, technology news and so many more intresting articles on our blog page." />
+            content="Welcome To Giakee, here you can get the latest news and blogs, lifehack, tips, technology and so many more and most importantly keeping up-to-date with your studies." />
         <meta name="twitter:label1" content="Created by" />
         <meta name="twitter:label2" content="Kenechukwu Ejimofor" />
         <!-- Favicon -->
@@ -43,7 +42,6 @@
             sizes="8x10"
             href="https://giannipro.github.io/gpro/Images/favicon.ico" />
         <!--Tab Color-->
-        <meta name="theme-color" content="#4f46e5" />
         <meta name="theme-color" content="#4f46e5" />
         <meta name="msapplication-navbutton-color" content="#4f46e5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#4f46e5" />
@@ -85,8 +83,10 @@
                         </a>
                     </div>
                     <ul align="right" class="menu" id="menu">
-                        <li><a href="./index.html">HOME</a></li>
-                        <li><a href="./blog.html" id="active-page">BLOG</a></li>
+                        <li>
+                            <a href="./index.html" id="active-page">HOME</a>
+                        </li>
+                        <li><a href="./blog.html">BLOG</a></li>
                         <li><a href="./studies.html">STUDIES</a></li>
                         <li><a href="./about-us.html">ABOUT US</a></li>
                         <li class="toggle-btn">
@@ -101,24 +101,24 @@
 
                 <div class="welcome-container">
                     <div class="welcome-tx">
-                        <h1>Welcome To Giakee</h1>
-                        <p>
-                            Get the latest news &amp; blogs <br />while keeping
-                            up-to-date with your studies
-                        </p>
+                        <p style="font-size: 31px;"><span style="color: #59E817;">Success!</span> We will get back to you <br/>very soon.<br/></p>
+                        <p>Go back to our <a href="./index.html" class="fan-purple-link" >Home</a> page.</p>
                     </div>
-                    <div class="welcome-search-input-wrapper">
+
+                    <div
+                        class="welcome-search-input-wrapper"
+                        id="welcome-search-input-wrapper">
                         <form class="welcome-search-input ui-widget">
-                            <button>
-                                <img src="./Images/search.png" width="25px" />
-                            </button>
+                            <button><img src="./Images/search.png" /></button>
                             <label for="tags"></label>
                             <input type="text" placeholder="Search" id="tags" />
                         </form>
                     </div>
                 </div>
+                </section>
             </section>
-            <!--Floating Search--->
+
+            <!--Floating Search-->
             <section class="search-n-menu">
                 <div id="search">
                     <div class="search-input-wrapper">
@@ -142,27 +142,12 @@
                     </button>
                 </div>
             </section>
-            </section>
         </header>
-
-        <div id="mySidenav" class="sidenav">
-            <div class="side-nav-a-wrapper">
-                <a
-                    href="javascript:void(0)"
-                    class="closebtn"
-                    onclick="closeNav()"
-                    >&times;</a
-                >
-                <a href="./blog.html">All</a>
-                <a href="./Blog/news.html">News</a>
-                <a href="./Blog/technology.html">Technology</a>
-                <a href="./Blog/sports.html">Sports</a>
-                <a href="./Blog/lifestyle.html">Lifestyle</a>
-                <a href="./Blog/health-and-fitness.html">Health and Fitness</a>
-            </div>
-        </div>
-        <span class="openbtn-sidenav" onclick="openNav()">&#9776;</span>
-        <div class="blog-main-container">
+        
+        <section class="homepage-main-container">
+            <h2 class="title section-title" data-name="Featured Updates">
+                Featured Updates
+            </h2>
             <div class="featured-updates-container">
                 <div class="featured-updates">
                     <a href="./Blog/technology/starlink.html" title="Starlink">
@@ -181,25 +166,31 @@
                     </a>
                 </div>
                 <div class="featured-updates">
-                    <a href="./Blog/technology/starlink.html" title="Starlink">
+                    <a
+                        href="./Studies/Geography/Solar_System.html"
+                        title="The Solar System">
                         <div class="featured-updates-img">
                             <img
-                                src="./Blog/technology/starlink/starlink.jpg" />
+                                src="./Studies/Geography/The_Solar_System/space.jpg" />
                         </div>
                         <div class="featured-updates-text">
-                            <h2>Starlink</h2>
-                            <span>By Kenechukwu Ejimofor | Dec 12TH 2022</span>
+                            <h2>The Solar System</h2>
+                            <span>By Kenechukwu Ejimofor | Jan 7TH 2023</span>
                             <p>
-                                Starlink is a satellite internet constellation
-                                operated by SpaceX, providing hi...
+                                The word solar is gotten from a Latin word
+                                called “solus” which means sun. The sol...
                             </p>
                         </div>
                     </a>
                 </div>
             </div>
-        </div>
-
-        <footer>
+            <div class="see-more-div">
+                <a href="./blog.html" title="Blog">
+                    <span class="see-more">SEE MORE</span
+                    ><span class="see-more-gt">&gt;</span></a>
+            </div>
+        </section>
+            <footer>
             <div class="footer-container">
                 <div class="footer-list">
                     <h2>Reach Us</h2>
@@ -229,7 +220,8 @@
                         >Instagram</a
                     >
                 </div>
-
+<!--f63978a865752df3c5c8e9b9de43b132
+https://formsubmit.co/el/comubo-->
                 <div class="form-container">
                     <h2>Contact Us</h2>
                     <div class="left-hr"><hr /></div>

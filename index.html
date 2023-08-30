@@ -16,19 +16,18 @@
             name="robot"
             content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
         <meta property="og:locale" content="en" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="Giakee | Home" />
         <meta property="og:description" content="Welcome To Giakee, here you can get the latest news and blogs, lifehack, tips, technology and so many more and most importantly keeping up-to-date with your studies" />
         <meta property="og:url" content="" />
         <meta property="og:site_name" content="Giakee" />
         <meta property="og:image" content="https://giannipro.github.io/gpro/Images/background.jpg" />
-        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:alt" content="Giakee | Home open graph image" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="628" />
         <meta name="twitter:image" content="https://giannipro.github.io/gpro/Images/background.jpg" />
         <meta name="twitter:site" content="@giakee" />
-        <meta property="twitter:domain" content="giannipro.github.io">
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Giakee | Home" />
         <meta
@@ -71,6 +70,9 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <!--My Css-->
         <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+	   <link rel="stylesheet" href="css/main.css">
+	   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
 
     <body>
@@ -147,7 +149,12 @@
                 </div>
             </section>
         </header>
-
+        <div id="loader-wrapper">
+            <div class="loader-tx"><span>Welcome To Giakee</span><div class="left-hr"><hr /></div></div>
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+		</div>
         <section class="homepage-main-container">
             <h2 class="title section-title" data-name="Featured Updates">
                 Featured Updates
@@ -316,7 +323,14 @@ https://formsubmit.co/el/comubo-->
                 <div class="form-container">
                     <h2>Contact Us</h2>
                     <div class="left-hr"><hr /></div>
+                    
                     <form class="form" action="https://formsubmit.co/f63978a865752df3c5c8e9b9de43b132" method="POST">
+                        <!--Honey Pot-->
+                        <input type="text" name="_honey" style="display: none;">
+                        <!--Disable Captcha-->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!--Sucess Page-->
+                        <input type="hidden" name="_next" value="./sucess.html">
                         <div class="form-name">
                             <input
                                 type="text"
@@ -374,5 +388,10 @@ https://formsubmit.co/el/comubo-->
 
         <script src="./main.js"></script>
         <script src="./search.js"></script>
+        <!-- /Demo content -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="./js/main.js"></script>
     </body>
 </html>

@@ -86,7 +86,18 @@ body{
 
 .left-hr hr{
     max-width: 65px;
-    border-color: #4f46e5;
+    border-color: var(--primary-theme-color);
+}
+
+.fan-purple-link {
+    color: var(--primary-theme-color);
+    text-decoration: none;
+    transition: 0.27s;
+}
+
+.fan-purple-link:hover {
+    text-decoration: underline;
+    transition: 0.35s;
 }
 
 #background-image{
