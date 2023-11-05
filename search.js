@@ -76,7 +76,7 @@ $( function() {
         window.location.replace(ui.item.link)
       }
     });
-    $( "#tag" )autocomplete({
+    $( "#tag" ).autocomplete({
       source: availableTags,
       select: function( event, ui ) {
         console.log(ui.item.link);
