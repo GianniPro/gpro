@@ -69,14 +69,14 @@ $( function() {
         {value:"Calculations On Friction on an Inclined Plane",link:'./Studies/Physics/frictional_force.html#friction-on-an-inclinded-plane'},
      
     ];
-    $( "#tags" ).autocomplete({
+    $( "#tags" ).complete({
       source: availableTags,
       select: function( event, ui ) {
         console.log(ui.item.link);
         window.location.replace(ui.item.link)
       }
     });
-    $( "#tag" ).autocomplete({
+    $( "#tag" ).complete({
       source: availableTags,
       select: function( event, ui ) {
         console.log(ui.item.link);
